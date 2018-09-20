@@ -1,0 +1,10 @@
+# 关闭目录列表
+<IfModule mod_rewrite.c>
+Options -Indexes
+RewriteEngine on
+RewriteBase /
+# 预设页面
+DirectoryIndex default.html index.html default.html index.htm default.php index.php Angular.html
+</IfModule>
+
+# END WordPress
